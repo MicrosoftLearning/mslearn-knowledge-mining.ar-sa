@@ -1,1 +1,2 @@
-# mslearn-knowledge-mining.ar-sa
+# mslearn-knowledge-mining
+ملفات المعمل لنماذج جمع معلومات الذكاء الاصطناعي في Azure
