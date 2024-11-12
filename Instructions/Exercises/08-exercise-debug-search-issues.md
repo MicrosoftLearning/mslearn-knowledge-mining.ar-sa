@@ -15,7 +15,7 @@ lab:
 
 قبل أن تتمكن من البدء في استخدام جلسة تصحيح الأخطاء، تحتاج إلى إنشاء خدمة Azure Cognitive Search.
 
-1. [توزيع الموارد إلى Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fazure-search-knowledge-mining%2Fmain%2Fazuredeploy.json) - حدد هذا الارتباط لتوزيع جميع الموارد التي تحتاجها في مدخل Microsoft Azure.
+1. [توزيع الموارد إلى Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2Fmslearn-knowledge-mining%2Fmain%2FLabfiles%2F08-debug-search%2Fazuredeploy.json) - حدد هذا الارتباط لتوزيع جميع الموارد التي تحتاجها في مدخل Microsoft Azure.
 
     ![لقطة شاشة لقالب توزيع arm مع الحقول التي تم إدخالها.](../media/08-media/arm-template-deployment.png)
 
