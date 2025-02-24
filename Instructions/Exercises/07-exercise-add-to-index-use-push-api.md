@@ -27,7 +27,7 @@ lab:
 
     ![لقطة شاشة تعرض جميع موارد Azure الموزعة.](../media/07-media/azure-resources-created.png)
 
-### نسخ معلومات واجهة برمجة تطبيقات REST الخاصة بخدمة بحث الذكاء الاصطناعي في Azure
+## نسخ معلومات واجهة برمجة تطبيقات REST الخاصة بخدمة بحث الذكاء الاصطناعي في Azure
 
 1. في قائمة الموارد، حدد خدمة البحث التي أنشأتها. في المثال أعلاه **acs118245-search-service**.
 1. انسخ اسم خدمة البحث في ملف نصي.
@@ -35,33 +35,18 @@ lab:
     ![لقطة شاشة للقسم "keys " لخدمة بحث.](../media/07-media/search-api-keys-exercise-version.png)
 1. على اليسار، حدد **Keys**، ثم انسخ **مفتاح المسؤول الأساسي** في نفس الملف النصي.
 
-### تنزيل مثال التعليمات البرمجية
+## تنزيل مثال التعليمات البرمجية لاستخدامه في Visual Studio Code
 
-افتح Azure Cloud Shell عن طريق تحديد زر Cloud Shell الموجود أعلى مدخل Azure.
-> **ملاحظة** إذا جرت مطالبتك بإنشاء حساب تخزين Azure، فحدد **إنشاء مساحة التخزين**.
+ستقوم بتشغيل نموذج التعليمات البرمجية Azure باستخدام Visual Studio Code. تم توفير ملفات التعليمات البرمجية لتطبيقك في مخزن بيانات خاصة بـ GitHub.
 
-1. بمجرد الانتهاء من البدء، انسخ مستودع التعليمات البرمجية المثال التالي عن طريق تشغيل ما يلي في Cloud Shell:
+1. ابدأ تشغيل Visual Studio Code.
+1. افتح لوحة (SHIFT+CTRL+P) وشغّل **Git: استنسخ الأمر ** لاستنساخ مستودع `https://github.com/MicrosoftLearning/mslearn-knowledge-mining` إلى مجلد محلي (لا يُهم أي مجلد).
+1. عند استنساخ المستودع، افتح المجلد في تعليمة Visual Studio البرمجية.
+1. انتظر حتى تثبيت ملفات إضافية لدعم مشاريع التعليمات البرمجية C# في المستودع.
 
-    ```powershell
-    git clone https://github.com/Azure-Samples/azure-search-dotnet-scale.git samples
-    ```
+    > **ملاحظة**: إذا جرت مطالبتك بإضافة الأصول المطلوبة للبناء وتصحيح الأخطاء، فحدد **ليس الآن**.
 
-1. يمكن التغيير إلى الدليل الذي أنشأته حديثاً عن طريق تشغيل:
-
-    ```powershell
-    cd samples
-    ```
-
-1. ثم قم بالتشغيل:
-
-    ```powershell
-    code ./optimize-data-indexing/v11
-    ```
-
-1. يؤدي هذا إلى فتح محرر التعليمات البرمجية داخل Cloud Shell في المجلد `/optimize-data-indexing/v11`.
-
-    ![لقطة شاشة لـ VS Code تعرض إعلامات الإعداد.](../media/07-media/setup-visual-studio-code-solution.png)
-1. في جزء التنقل على اليسار، باشر بتوسيع المجلد **OptimizeDataIndexing**، ثم حدد ملف **appsettings.json**.
+1. في شريط التنقل على اليسار، وسّع المجلد **optimize-data-indexing/v11/OptimizeDataIndexing**، ثم حدد الملف **appsettings.json**.
 
     ![لقطة شاشة تعرض محتويات ملف appsettings.json.](../media/07-media/update-app-settings.png)
 1. الصق اسم خدمة البحث ومفتاح المسؤول الأساسي لديك.
@@ -76,36 +61,29 @@ lab:
 
     يجب أن يبدو ملف الإعدادات مشابهاً لما هو موضح أعلاه.
 1. احفظ التغييرات بالنقر فوق **CTRL+S**.
-1. حدد الملف **OptimizeDataIndexing.csproj**. <!-- Added this and the next two steps in case we can't update the file in the repo that holds these (seems to be separate from the other labs)-->
-1. في السطر الخامس، يمكنك تغيير `<TargetFramework>netcoreapp3.1</TargetFramework>` إلى `<TargetFramework>net7.0</TargetFramework>`. <!--- can be removed if no longer needed based on the above-->
-1. احفظ التغييرات بالنقر فوق **CTRL+S**.<!--- can be removed if no longer needed based on the above-->
-1. في المحطة الطرفية، أدخل `cd ./optimize-data-indexing/v11/OptimizeDataIndexing` ثم اضغط على مفتاح الإدخال **Enter** للتغيير إلى الدليل الصحيح.
-1. احفظ الملف **Program.cs**. بعد ذلك، في المحطة الطرفية، أدخل `dotnet run` واضغط على مفتاح الإدخال **Enter**.
+1. انقر بزر الماوس الأيمن فوق المجلد **OptimizeDataIndexing** وحدد **فتح في الوحدة الطرفية المتكاملة**.
+1. في الوحدة الطرفية، أدخل `dotnet run` واضغط على **Enter**.
 
     ![لقطة شاشة تعرض التطبيق قيد التشغيل في VS Code مع استثناء.](../media/07-media/debug-application.png)
-يوضح الإخراج أنه في هذه الحالة، يكون حجم الدُفعة الأفضل أداءً هو 900 مستند. كما أنه يصل إلى 3.688 ميغابايت في الثانية.
+يوضح الإخراج أنه في هذه الحالة، يكون حجم الدُفعة الأفضل أداءً هو 900 مستند. حيث يصل إلى 6.071 ميجا بايت في الثانية.
 
-### تحرير التعليمات البرمجية لتنفيذ مؤشر الترابط واستراتيجية التراجع وإعادة المحاولة
+## تحرير التعليمات البرمجية لتنفيذ مؤشر الترابط واستراتيجية التراجع وإعادة المحاولة
 
 هناك تعليمة برمجية تم تعطيلها بالتحويل إلى تعليق وهي جاهزة لتغيير التطبيق لاستخدام مؤشرات الترابط لتحميل المستندات إلى فهرس البحث.
 
 1. تأكد من تحديد **Program.cs**.
 
     ![لقطة شاشة ل VS Code تعرض ملف Program.cs.](../media/07-media/edit-program-code.png)
-1. علق على السطرين 38 و 39 هكذا:
+1. علق على السطرين 37 و 38 على هذا النحو:
 
     ```csharp
     //Console.WriteLine("{0}", "Finding optimal batch size...\n");
     //await TestBatchSizesAsync(searchClient, numTries: 3);
     ```
 
-1. أسطر إلغاء التعليق من 41 إلى 49.
+1. إلغاء التعليق على الأسطر 44 إلى 48.
 
     ```csharp
-    long numDocuments = 100000;
-    DataGenerator dg = new DataGenerator();
-    List<Hotel> hotels = dg.GetHotels(numDocuments, "large");
-
     Console.WriteLine("{0}", "Uploading using exponential backoff...\n");
     await ExponentialBackoff.IndexDataAsync(searchClient, hotels, 1000, 8);
 
@@ -122,7 +100,6 @@ lab:
 1. حدد المحطة الطرفية، ثم اضغط على أي مفتاح لإنهاء عملية التشغيل إذا لم تكن قد نفذت ذلك بالفعل.
 1. شغّل `dotnet run` في المحطة.
 
-    ![لقطة شاشة تعرض الرسائل المكتملة في وحدة التحكم.](../media/07-media/upload-hundred-thousand-documents.png)
     سيبدأ التطبيق ثمانية مؤشرات ترابط، ثم مع انتهاء كل مؤشر ترابط من كتابة رسالة جديدة إلى وحدة التحكم:
 
     ```powershell
@@ -162,7 +139,7 @@ lab:
 
 ![لقطة شاشة تعرض فهرس البحث مع 100000 مستند.](../media/07-media/check-search-service-index.png)
 
-### التنظيف
+## التنظيف
 
 الآن بعد أن أكملت التمرين، احذف جميع الموارد التي لم تعد بحاجة إليها. ابدأ بالتعليمة البرمجية المستنسخة إلى جهازك. ثم احذف موارد Azure.
 
