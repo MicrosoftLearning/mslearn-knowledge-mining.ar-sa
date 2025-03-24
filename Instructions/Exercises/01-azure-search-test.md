@@ -159,7 +159,7 @@ lab:
 <li>قم بإجراء التغييرات التالية على حقول الفهرس، مع ترك جميع الحقول الأخرى بإعداداتها الافتراضية (**مهم**: قد تحتاج إلى التمرير إلى اليمين لرؤية الجدول بالكامل):</li>
 </ol>
 
-    | اسم الحقل | قابل للاسترداد | قابل للتصفية | قابل للفرز | قابلة لتشكيل الواجهة | قابل للبحث |
+    | Field name | Retrievable | Filterable | Sortable | Facetable | Searchable |
     | ---------- | ----------- | ---------- | -------- | --------- | ---------- |
     | metadata_storage_size | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | |
     | metadata_storage_last_modified | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | |
