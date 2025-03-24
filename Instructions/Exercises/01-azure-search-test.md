@@ -1,4 +1,4 @@
----
+﻿---
 lab:
   title: إنشاء حل Azure AI Search
   module: Module 12 - Creating a Knowledge Mining Solution
