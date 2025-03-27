@@ -2,6 +2,22 @@
 lab:
   title: تنفيذ التحسينات على نتائج البحث
 ---
+<style>
+  body {
+    direction: rtl;
+    text-align: right;
+    font-family: Arial, sans-serif; /* Ensure Arabic fonts are supported */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-align: right;
+  }
+
+  p {
+    text-align: right;
+  }
+</style>
+
 
 # تنفيذ التحسينات على نتائج البحث
 
