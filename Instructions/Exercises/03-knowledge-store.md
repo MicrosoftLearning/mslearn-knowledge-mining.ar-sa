@@ -3,22 +3,6 @@ lab:
   title: إنشاء مخزن المعلومات مع بحث الذكاء الاصطناعي في Azure
   module: Module 12 - Creating a Knowledge Mining Solution
 ---
-<style>
-  body {
-    direction: rtl;
-    text-align: right;
-    font-family: Arial, sans-serif; /* Ensure Arabic fonts are supported */
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    text-align: right;
-  }
-
-  p {
-    text-align: right;
-  }
-</style>
-
 
 # إنشاء مخزن المعلومات مع بحث الذكاء الاصطناعي في Azure
 

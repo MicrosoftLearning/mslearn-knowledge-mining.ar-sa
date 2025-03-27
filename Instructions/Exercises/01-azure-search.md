@@ -4,21 +4,6 @@ lab:
   module: Module 12 - Creating a Knowledge Mining Solution
 ---
 
-<style>
-  body {
-    direction: rtl;
-    text-align: right;
-    font-family: Arial, sans-serif; /* Ensure Arabic fonts are supported */
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    text-align: right;
-  }
-
-  p {
-    text-align: right;
-  }
-</style>
 # إنشاء حل Azure AI Search
 
 تعتمد جميع المنظمات على المعلومات لاتخاذ القرارات والإجابة على الأسئلة والعمل بكفاءة. والمشكلة بالنسبة لمعظم المنظمات ليست نقص المعلومات، بل في التحدي المتمثل في العثور على المعلومات واستخراجها من مجموعة ضخمة من الوثائق وقواعد البيانات وغيرها من المصادر التي تخزن فيها المعلومات.
