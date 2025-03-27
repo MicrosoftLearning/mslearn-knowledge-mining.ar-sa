@@ -1,6 +1,4 @@
 remote_theme: MicrosoftLearning/Jekyll-Theme
-include:
-  - styles.css
 exclude:
   - readme.md
   - .github/
