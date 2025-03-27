@@ -4,7 +4,7 @@ permalink: index.html
 layout: home
 ---
 
-<link rel="stylesheet" href="/assets/styles.css">
+<link rel="stylesheet" href="/assets/rtlstyles.css">
 # تمارين التنقيب عن المعرفة في Azure
 
 تم تصميم التدريبات التالية لدعم الوحدات النمطية على Microsoft Learn.
