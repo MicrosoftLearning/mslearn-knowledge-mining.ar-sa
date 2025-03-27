@@ -4,7 +4,21 @@ permalink: index.html
 layout: home
 ---
 
-<link rel="stylesheet" href="/assets/rtlstyles.css">
+<style>
+  body {
+    direction: rtl;
+    text-align: right;
+    font-family: Arial, sans-serif; /* Ensure Arabic fonts are supported */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-align: right;
+  }
+
+  p {
+    text-align: right;
+  }
+</style>
 # تمارين التنقيب عن المعرفة في Azure
 
 تم تصميم التدريبات التالية لدعم الوحدات النمطية على Microsoft Learn.
