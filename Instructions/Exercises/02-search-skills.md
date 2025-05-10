@@ -1,8 +1,21 @@
----
-lab:
-  title: إنشاء مهارة مخصصة لـ Azure الذكاء الاصطناعي Search
-  module: Module 12 - Creating a Knowledge Mining Solution
----
+<div dir="rtl">
+
+<table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto">إنشاء مهارة مخصصة لـ Azure الذكاء الاصطناعي Search</div></td>
+  <td><div dir="auto">Module 12 - Creating a Knowledge Mining Solution</div></td>
+  </tr>
+  </tbody>
+</table>
+
+</div>
 
 # إنشاء مهارة مخصصة لـ Azure الذكاء الاصطناعي Search
 
@@ -20,7 +33,7 @@ lab:
     <li>ابدأ تشغيل Visual Studio Code.</li>
     <li>افتح لوحة (SHIFT+CTRL+P) وشغّل <b>Git: استنسخ الأمر </b> لاستنساخ مستودع <code>https://github.com/MicrosoftLearning/mslearn-knowledge-mining</code> إلى مجلد محلي (لا يُهم أي مجلد).</li>
     <li>عند استنساخ المستودع، افتح المجلد في تعليمة Visual Studio البرمجية.</li>
-    <li>انتظر حتى تثبيت ملفات إضافية لدعم مشاريع التعليمات البرمجية C# في المستودع.</li>
+    <li>انتظر حتى تثبيت ملفات إضافية لدعم مشاريع التعليمات البرمجية #C في المستودع.</li>
     <blockquote><b>ملاحظة</b>: إذا جرت مطالبتك بإضافة الأصول المطلوبة للبناء وتصحيح الأخطاء، فحدد <b>ليس الآن</b>.</blockquote>
 </ol>
 
@@ -146,7 +159,7 @@ lab:
 
 لتنفيذ وظيفة عدد الكلمات كمهارة مخصصة، ستقوم بإنشاء دالة Azure باللغة المفضلة لديك.
 
-> <b>ملاحظة</b>: في هذا التمرين، ستقوم بإنشاء دالة Node.JS بسيطة باستخدام إمكانات تحرير التعليمات البرمجية في مدخل Azure. في حل الإنتاج، عادة ما تستخدم بيئة تطوير مثل Visual Studio Code لإنشاء تطبيق دالة بلغتك المفضلة (على سبيل المثال C# أو Python أو Node.JS أو Java) ونشره على Azure كجزء من عملية DevOps.
+> <b>ملاحظة</b>: في هذا التمرين، ستقوم بإنشاء دالة Node.JS بسيطة باستخدام إمكانات تحرير التعليمات البرمجية في مدخل Azure. في حل الإنتاج، عادة ما تستخدم بيئة تطوير مثل Visual Studio Code لإنشاء تطبيق دالة بلغتك المفضلة (على سبيل المثال #C أو Python أو Node.JS أو Java) ونشره على Azure كجزء من عملية DevOps.
 
 <ol dir='rtl'>
     <li>
