@@ -1,8 +1,31 @@
----
-lab:
-  title: إنشاء مخزن المعلومات مع بحث الذكاء الاصطناعي في Azure
-  module: Module 12 - Creating a Knowledge Mining Solution
----
+<div dir="rtl">
+<table>
+  <thead>
+  <tr>
+  <th>lab</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto"><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto">إنشاء مخزن المعلومات مع بحث الذكاء الاصطناعي في Azure</div></td>
+  <td><div dir="auto">Module 12 - Creating a Knowledge Mining Solution</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+</div>
 
 # إنشاء مخزن المعلومات مع بحث الذكاء الاصطناعي في Azure
 
@@ -27,7 +50,7 @@ lab:
     <li>ابدأ تشغيل Visual Studio Code.</li>
     <li>افتح لوحة (SHIFT+CTRL+P) وشغّل <b>Git: استنسخ الأمر </b> لاستنساخ مستودع <code>https://github.com/MicrosoftLearning/mslearn-knowledge-mining</code> إلى مجلد محلي (لا يُهم أي مجلد).</li>
     <li>عند استنساخ المستودع، افتح المجلد في تعليمة Visual Studio البرمجية.</li>
-    <li>انتظر حتى تثبيت ملفات إضافية لدعم مشاريع التعليمات البرمجية C# في المستودع.</li>
+    <li>انتظر حتى تثبيت ملفات إضافية لدعم مشاريع التعليمات البرمجية #C في المستودع.</li>
     <blockquote><b>ملاحظة</b>: إذا جرت مطالبتك بإضافة الأصول المطلوبة للبناء وتصحيح الأخطاء، فحدد <b>ليس الآن</b>.</blockquote>
 </ol>
 
