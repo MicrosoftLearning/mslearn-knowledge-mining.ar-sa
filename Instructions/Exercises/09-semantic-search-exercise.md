@@ -1,7 +1,30 @@
----
-lab:
-  title: إعداد مصنف دلالي
----
+
+<div dir="rtl">
+<table>
+  <thead>
+  <tr>
+  <th>lab</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto"><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto">إعداد مصنف دلالي</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+</div>
 
 # إعداد مصنف دلالي
 
