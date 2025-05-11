@@ -1,7 +1,29 @@
----
-lab:
-  title: تنفيذ التحسينات على نتائج البحث
----
+<div dir="rtl">
+<table>
+  <thead>
+  <tr>
+  <th>lab</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto"><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto">تنفيذ التحسينات على نتائج البحث</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+</div>
 
 # تنفيذ التحسينات على نتائج البحث
 

@@ -1,7 +1,29 @@
----
-lab:
-  title: تصحيح مشكلات البحث
----
+<div dir="rtl">
+<table>
+  <thead>
+  <tr>
+  <th>lab</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto"><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto">تصحيح مشكلات البحث</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+</div>
 
 # تصحيح مشكلات البحث
 

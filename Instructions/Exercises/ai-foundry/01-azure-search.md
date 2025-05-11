@@ -1,8 +1,19 @@
----
-lab:
-  title: إنشاء حل Azure AI Search
-  module: Module 12 - Creating a Knowledge Mining Solution
----
+<div dir="rtl">
+<table>
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>module</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto">إنشاء حل Azure AI Search</div></td>
+  <td><div dir="auto">Module 12 - Creating a Knowledge Mining Solution</div></td>
+  </tr>
+  </tbody>
+</table>
+</div>
 
 # إنشاء حل Azure AI Search
 
@@ -96,7 +107,7 @@ lab:
     <li>ابدأ تشغيل Visual Studio Code.</li>
     <li>افتح لوحة (SHIFT+CTRL+P) وشغّل <b>Git: استنسخ الأمر </b> لاستنساخ مستودع <code>https://github.com/MicrosoftLearning/mslearn-knowledge-mining</code> إلى مجلد محلي (لا يُهم أي مجلد).</li>
     <li>عند استنساخ المستودع، افتح المجلد في تعليمة Visual Studio البرمجية.</li>
-    <li>انتظر حتى تثبيت ملفات إضافية لدعم مشاريع التعليمات البرمجية C# في المستودع.</li>
+    <li>انتظر حتى تثبيت ملفات إضافية لدعم مشاريع التعليمات البرمجية #C في المستودع.</li>
     <blockquote><b>ملاحظة</b>: إذا جرت مطالبتك بإضافة الأصول المطلوبة للبناء وتصحيح الأخطاء، فحدد <b>ليس الآن</b>.</blockquote>
 </ol>
 
@@ -478,7 +489,7 @@ lab:
 
 الآن بعد أن أصبح لديك فهرس مفيد، يمكنك استخدامه من تطبيق عميل. يمكنك القيام بذلك عن طريق استخدام واجهة REST، وإرسال الطلبات وتلقي الاستجابات بتنسيق JSON عبر HTTP؛ أو يمكنك استخدام مجموعة أدوات تطوير البرامج (SDK) للغة البرمجة المفضلة لديك. سنستخدم SDK، في هذا التمرين.
 
-> <b>ملاحظة</b>: يمكنك اختيار استخدام SDK إما لـ <b>C#</b> أو <b>Python</b>. في الخطوات الواردة أدناه، نفذ الإجراءات المناسبة للغتك المفضلة.
+> <b>ملاحظة</b>: يمكنك اختيار استخدام SDK إما لـ <b>#C</b> أو <b>Python</b>. في الخطوات الواردة أدناه، نفذ الإجراءات المناسبة للغتك المفضلة.
 
 ### الحصول على نقطة النهاية والمفاتيح لمورد البحث خاصتك
 
@@ -494,7 +505,7 @@ lab:
 <ol dir='rtl'>
     <li>في Visual Studio Code، في جزء <b>Explorer</b>، استعرض للوصول إلى المجلد <b>01-azure-search</b> وقم بتوسيع المجلد <b>CSharp</b> أو <b>Python</b> حسب تفضيل اللغة لديك.</li>
     <li>انقر بزر الماوس الأيمن فوق مجلد <b>margies-travel</b> وافتح محطة طرفية متكاملة. ثم عليك تثبيت حزمة Azure AI Search SDK عن طريق تشغيل الأمر المناسب لتفضيل اللغة لديك:</li>
-    <b>C#</b>
+    <b>#C</b>
     <div style="text-align: left; direction: ltr; margin: 0 20px;">
     <pre><code>dotnet add package Azure.Search.Documents --version 11.6.0</code></pre>
     </div>
@@ -589,7 +600,7 @@ lab:
 
 <ol dir='rtl'>
     <li>أعد الوحدة الطرفية المتكاملة للمجلد <b>margies-travel</b>، وأدخل الأمر التالي لتشغيل البرنامج:</li>
-    <b>C#</b>
+    <b>#C</b>
     <div style="text-align: left; direction: ltr; margin: 0 20px;">
     <pre><code>dotnet run</code></pre>
     </div>

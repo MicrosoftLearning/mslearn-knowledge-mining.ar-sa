@@ -1,7 +1,29 @@
----
-lab:
-  title: إثراء فهرس بحث الذكاء الاصطناعي مع فئات مخصصة
----
+<div dir="rtl">
+<table>
+  <thead>
+  <tr>
+  <th>lab</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto"><table>
+  <thead>
+  <tr>
+  <th>title</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div dir="auto">إثراء فهرس بحث الذكاء الاصطناعي مع فئات مخصصة</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+</div>
 
 # إثراء فهرس بحث الذكاء الاصطناعي مع فئات مخصصة
 
